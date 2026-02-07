@@ -129,3 +129,19 @@ Este conjunto de ajustes é compatível com **Linux kernel 5.4 ou superior** e f
 - ⚠️ Alertas de rollback  
 - Blocos `diff` simulam **cores verdes (+) e vermelhas (-)**  
 - Cada bloco representa um **perfil isolado**, facilitando leitura e entendimento rápido do estado do host
+
+---
+
+⚠️ **Instalação / Install**
+
+Script de instalação 
+
+Installation script 
+
+As instruções devem ser executadas como root, pois usuários comuns não têm acesso aos arquivos.
+
+Instructions be performed as 'root', as normal users do not have access to the files.
+
+wget https://raw.githubusercontent.com/projetoroot/tuning-host/refs/heads/main/install.sh
+
+bash install.sh
